@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Programs</title>
+    <link rel="stylesheet" href="2.1.ProgramsStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#Right").hide();
+      $("#Left").hide();
+      $("h1").hide();
+      $("footer").hide();
+      $("#Left").show(2000);
+      $("#Right").show(2000);
+      $("h1").slideDown('slow');
+      $("footer").show(5000);
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="1.Index.html"><img src="image/ict4m2020.png" class="ict4m"></a></li>
+        <li><a href="1.Index.html">Home</a></li>
+        <li><a href="2.1.Programs.html">Program</a>
+          <ul>
+            <li><a href="2.2.Fee.html">Fees</a></li>
+            <li><a href="Schedule.pdf">Activities</a></li>
+          </ul>
+        </li>
+        <li><a href="3.Submission.html">Submission</a>
+          <ul>
+            <li><a href="4.Guideline.html">Guideline</a></li>
+          </ul>
+        </li>
+        <li><a href="5.speaker.html">Keynote</a></li>
+        <li><a href="6.ContactUs.html">Contact Us</a>
+        </li>
+      </ul>
+    </header><br><br>
+    <main>
+    <h1>Programs</h1>
+
+    <div id="Left">
+      <img class="slide" src="image/Meeting1.jpg">
+      <img class="slide" src="image/Meeting2.jpg">
+      <img class="slide" src="image/Meeting3.jpg">
+      <br>
+      <h3>Date</h3>
+      <h2>23 - 25 MARCH</h2>
+      <h3>Time</h3>
+      <h2>09:00 a.m.</h2><br>
+      <br>
+      <table align="center">
+        <tr>
+          <th class="flip">Full Paper Submission Deadline</th>
+          <th class="panel">1 November 2019</th>
+        </tr>
+        <tr>
+          <th class="flip">Acceptance Notifications</th>
+          <th class="panel">31 December 2019</th>
+        </tr>
+        <tr>
+          <th class="flip">Early Registration Deadline</th>
+          <th class="panel">10 January 2020</th>
+        </tr>
+        <tr>
+          <th class="flip">Camera Ready</th>
+          <th class="panel">31 January 2020</th>
+        </tr>
+        <tr>
+          <th class="flip">Conference</th>
+          <th class="panel">23 – 25 March 2020</th>
+        </tr>
+      </table>
+    </div>
+
+    <div id="Right">
+      <img src="image/Schedule.jpeg" id="img2">
+      <a href="Schedule.pdf"><button class="btn" type="button" >Find Out More</button></a>
+    </div>
+    </main>
+
+    <footer>
+      <p>Copyright © 2020 ICT4M. All Rights Reserved.</p>
+    </footer>
+    <script src="2.1.ProgramsFunc.js"></script>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="2.2.Fee.css">
+    <title></title>
+  </head>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("h1").hide();
+    $("h1").show(2000);
+  });
+  $(function() {
+    $("#accordion").accordion();
+  });
+</script>
+
+<body>
+  <header>
+    <ul>
+      <li><a href="1.Index.html"><img src="image/ict4m2020.png" class="ict4m"></a></li>
+      <li><a href="1.Index.html">Home</a></li>
+      <li><a href="2.1.Programs.html">Program</a>
+        <ul>
+          <li><a href="2.2.Fee.html">Fees</a></li>
+          <li><a href="Schedule.pdf">Activities</a></li>
+        </ul>
+      </li>
+      <li><a href="3.Submission.html">Submission</a>
+        <ul>
+          <li><a href="4.Guideline.html">Guideline</a></li>
+        </ul>
+      </li>
+      <li><a href="5.speaker.html">Keynote</a></li>
+      <li><a href="6.ContactUs.html">Contact Us</a>
+      </li>
+    </ul>
+  </header>
+
+  <main>
+    <h1 id="h1" align="center">Conference Fees</h1>
+    <div class="content">
+      <div id="accordion">
+        <h1>International Participant</h1>
+      <div>
+        <table align="center">
+          <tr class="head">
+            <th>Type of Registration</th>
+            <th colspan="2">Rate</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Early bird (20% discount)</td>
+            <td>Regular rate</td>
+          </tr>
+          <tr>
+            <th>Conference Paper Presenter</th>
+            <td>RM 1,600 / USD 400 </td>
+            <td>RM 2,000 / USD 500 </td>
+          </tr>
+          <tr>
+            <th>Student Presenter</th>
+            <td>RM 1,280 / USD 320</td>
+            <td>RM 1,600 / USD 400</td>
+          </tr>
+          <tr>
+            <th>Participant (without papers)</th>
+            <td colspan="2" class="pwp">RM 700 / USD 175</td>
+          </tr>
+        </table>
+      </div>
+      <h1>Local Participant</h1>
+      <div>
+      <table align="center">
+        <tr class="head">
+          <th>Type of Registration</th>
+          <th colspan="2">Rate</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Early bird (20% discount)</td>
+          <td>Regular rate</td>
+        </tr>
+        <tr>
+          <th>Conference Paper Presenter</th>
+          <td>RM 1,200</td>
+          <td>RM 1,500</td>
+        </tr>
+        <tr>
+          <th>Student Presenter</th>
+          <td>RM 800</td>
+          <td>RM 1,000</td>
+        </tr>
+        <tr>
+          <th>Participant (without papers)</th>
+          <td colspan="2" class="pwp">RM 600</td>
+        </tr>
+      </table><br>
+    </div>
+    </div>
+    <p>*Additional papers from the same presenter will be charged
+      <strong>RM500 per paper / USD 125</strong> (up to 2 papers only). </p>
+    <p> *A student presenter must provide proof of student status,
+      such as student identification during registration. </p>
+    <p> *Conference registration includes access to all parallel sessions,
+      invited speakers, meals, conference kit and a copy of the conference proceedings. </p>
+  </main>
+
+  <footer id="feeFooter">
+    <p>Copyright © 2020 ICT4M. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

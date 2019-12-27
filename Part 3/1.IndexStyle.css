@@ -1,0 +1,181 @@
+body, html{
+  height:100%;
+  margin: auto;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+  scroll-behavior: smooth;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.ict4m{
+  width: 100px;
+}
+
+.pimg1{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('image/people.mp4');
+  min-height:100%;
+}
+
+.section{
+  text-align:center;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  color:black;
+  padding:20px;
+}
+
+.ictm{
+  position: absolute;
+  left:300px;
+  top: 30%;
+  font-size: 65px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: serif;
+  letter-spacing: 10px;
+  color:black;
+}
+
+.mental{
+  position: absolute;
+  left: 300px;
+  top: 40%;
+  font-size: 30px;
+  font-family: serif;
+  font-style: italic;
+  letter-spacing: 4px;
+  color: white;
+}
+
+.isconference{
+  position: absolute;
+  padding-left: 20px;
+  left: 300px;
+  top: 60%;
+  font-size: 15px;
+  font-weight:300;
+  font-family: arial;
+  font-style: normal;
+  letter-spacing: 3px;
+  line-height: 18px;
+  color:  white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.ProgramTitle{
+  position: absolute;
+  left: 240px;
+  font-size: 50px;
+  font-family: serif;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.X{
+  position: relative;
+  top: 180px;
+  margin-left: 20px;
+  width: 1400px;
+  height: 600px;
+  background-color: pink;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+
+header{
+  font-family: serif;
+  background-size: cover;
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+ul {
+ list-style: none;
+ font-family: serif;
+}
+
+ul li {
+ float: left;
+ width: 240px;
+ height: 40px;
+ background-color: white;
+ opacity: .8;
+ line-height: 40px;
+ text-align: center;
+ font-size: 20px;
+ margin: auto;
+}
+
+ul li a {
+ text-decoration: none;
+ color: black;
+ display: block;
+}
+
+ul li a:hover {
+ background-color: grey;
+}
+
+ul li ul li{
+ display: none;
+}
+
+ul li:hover ul li {
+ display: block;
+}
+
+footer {
+   position:absolute;
+   left: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <title></title>
+  </head>
+  <link rel="stylesheet" href="6.ContactUsStyle.css">
+
+  <body>
+    <header>
+      <ul>
+        <li><a href="1.Index.html"><img src="image/ict4m2020.png" class="ict4m"></a></li>
+        <li><a href="1.Index.html">Home</a></li>
+        <li><a href="2.1.Programs.html">Program</a>
+          <ul>
+            <li><a href="2.2.Fee.html">Fees</a></li>
+            <li><a href="Schedule.pdf">Activities</a></li>
+          </ul>
+        </li>
+        <li><a href="3.Submission.html">Submission</a>
+          <ul>
+            <li><a href="4.Guideline.html">Guideline</a></li>
+          </ul>
+        </li>
+        <li><a href="5.speaker.html">Keynote</a></li>
+        <li><a href="6.ContactUs.html">Contact Us</a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="container">
+  		<div class="contact-box">
+  			<div class="left">
+          <div class="" id="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.3956361384694!2d101.7330045917453!3d3.2514541275252182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc38c2f70795af%3A0xf808897bf1163a3!2sInternational%20Islamic%20University%20Malaysia!5e0!3m2!1sen!2smy!4v1577115207208!5m2!1sen!2smy
+" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+          <div class="dialog">
+            <p>SECRETARIAT OF ICT4M 2020 <br>
+              Kulliyyah of Information and <br>
+              Communication Technology (KICT),<br>
+               International Islamic University Malaysia (IIUM),<br>
+                Jalan Gombak, 53100 Kuala Lumpur, Malaysia
+            </p>
+            <p>Email : ict4m@iium.edu.myWebsite :<br>
+               https://ict4m.iium.edu.myTel.<br>
+                +603-6196 5601 Fax: +603-6196 5971
+            </p>
+          </div>
+          <div class="icon">
+            for icon
+
+          </div>
+
+
+        </div>
+  			<div class="right">
+  				<h2>Contact Us</h2>
+  				<input type="text" class="field" placeholder="Your Name">
+  				<input type="text" class="field" placeholder="Your Email">
+  				<input type="text" class="field" placeholder="Phone">
+  				<textarea placeholder="Message" class="field"></textarea>
+  				<button class="btn">Send</button>
+  			</div>
+  		</div>
+  	</div>
+    <script type="text/javascript">
+        $('.container').mousemove(function(e){
+          var moveX = (e.pageX * -1 / 15);
+          var moveY = (e.pageY * -1 / 15);
+          $(this).css('background-position', moveX + 'px ' + moveY + 'px')
+
+        })
+    </script>
+    <footer>
+      <p>Copyright © 2020 ICT4M. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

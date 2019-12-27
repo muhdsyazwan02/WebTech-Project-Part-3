@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="5.SpeakerStyle.css">
+    <title></title>
+  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".txtP,.image,.img2,.img3").slideToggle();
+  $("h1").hide();
+  $("h1").show(2000);
+
+  $("h2").click(function(){
+    $(".txtP,.image,.img2,.img3").slideToggle("slow");
+  });
+});
+</script>
+
+
+  <body>
+    <div class="bg">
+      <h1>Keynote Speaker</h1>
+    </div>
+    <header>
+      <ul>
+        <li><a href="1.Index.html"><img src="image/ict4m2020.png" class="ict4m"></a></li>
+        <li><a href="1.Index.html">Home</a></li>
+        <li><a href="2.1.Programs.html">Program</a>
+          <ul>
+            <li><a href="2.2.Fee.html">Fees</a></li>
+            <li><a href="Schedule.pdf">Activities</a></li>
+          </ul>
+        </li>
+        <li><a href="3.Submission.html">Submission</a>
+          <ul>
+            <li><a href="4.Guideline.html">Guideline</a></li>
+          </ul>
+        </li>
+        <li><a href="5.speaker.html">Keynote</a></li>
+        <li><a href="6.ContactUs.html">Contact Us</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+    <div class="clearfix">
+      <h2>1. Tan Sri Prof Dr Mohd Kamal Hassan</h2><br>
+      <img src="image/kamal-hasan.jpg" alt=""  class="image">
+
+
+      <p class="txtP">Prof. Emeritus Tan Sri Dr. Mohd. Kamal bin Hassan (born 27 October 1942 in Pasir Mas, Kelantan) is a Muslim academic and Islamic scholar, specializing in contemporary Islamic thought, particularly pertaining to the Southeast Asia region. He was the Rector of the International Islamic University Malaysia (IIUM) from 1998 to 2006.
+        </p><br>
+
+
+    <h2>2. Professor Dr Nor Zuraida Binti Zainal</h2><br>
+
+      <img src="image/zuraida.jpg" alt="" class="img2">
+      <p class="txtP">Professor Dr Nor Zuraida Zainal is a Consultant Psychiatrist in the University Malaya Medical Centre,
+Kuala Lumpur. She heads the Liaison-Psychiatry Division in the Department of Psychological
+Medicine since year 2000. She had an experience from a short clinical attachment with Psychooncology team in Leicester General Hospital and Christie Cancer Hospital in Manchester, UK.
+    </p><br>
+
+
+    <h2>3. Dato' Dr. Sheikh Muszaphar Shukor Al Masrie bin Sheikh Mustapha</h2><br>
+
+      <img src="image/muzafar.jpg" alt="" class="img3">
+      <p class="txtP">Sheikh Muszaphar was born in Kuala Lumpur, the son of Ustaz Muhaidin. He is of Arab and Malay descent. He attended high school at Maktab Rendah Sains MARA in Muar. He then earned a Bachelor of Medicine and Surgery degree from Kasturba Medical College, an affiliated college of Manipal University, in Manipal, India. Sheikh Muszaphar is an orthopaedic surgeon at the Universiti Kebangsaan Malaysia.
+      </p>
+
+    </div>
+    </main>
+    <footer>
+      <p>Copyright © 2020 ICT4M. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
